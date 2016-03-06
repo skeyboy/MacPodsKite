@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MacPodsKite"
-  s.version      = "0.0.1"
-  s.summary      = "MacPodsKite is for my compay team, all our little can be here. So we can together."
+  s.version      = "0.0.2"
+  s.summary      = "MacPodsKite is for my compay team, all our little can be here. So we can together.\n添加日期选择"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -89,7 +89,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "MacPodsKite/**/*.{h,m}"
+  s.source_files  = "MacPodsKite/SelectDateCalenderView/*.{h,m}"
   #	s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"

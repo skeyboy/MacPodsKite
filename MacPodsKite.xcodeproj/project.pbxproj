@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5AB124D01C8BD345002BADAE /* SelectDateCalenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB124CE1C8BD345002BADAE /* SelectDateCalenderView.m */; };
+		5AB124D11C8BD345002BADAE /* SelectDateCalenderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AB124CF1C8BD345002BADAE /* SelectDateCalenderView.xib */; };
 		5AB38D7F1C8AF60D0054BCBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB38D7E1C8AF60D0054BCBA /* main.m */; };
 		5AB38D821C8AF60D0054BCBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB38D811C8AF60D0054BCBA /* AppDelegate.m */; };
 		5AB38D851C8AF60D0054BCBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB38D841C8AF60D0054BCBA /* ViewController.m */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5AB124CD1C8BD345002BADAE /* SelectDateCalenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDateCalenderView.h; sourceTree = "<group>"; };
+		5AB124CE1C8BD345002BADAE /* SelectDateCalenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDateCalenderView.m; sourceTree = "<group>"; };
+		5AB124CF1C8BD345002BADAE /* SelectDateCalenderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectDateCalenderView.xib; sourceTree = "<group>"; };
 		5AB38D7A1C8AF60D0054BCBA /* MacPodsKite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacPodsKite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB38D7E1C8AF60D0054BCBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AB38D801C8AF60D0054BCBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -39,6 +44,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AB124CC1C8BD345002BADAE /* SelectDateCalenderView */ = {
+			isa = PBXGroup;
+			children = (
+				5AB124CD1C8BD345002BADAE /* SelectDateCalenderView.h */,
+				5AB124CE1C8BD345002BADAE /* SelectDateCalenderView.m */,
+				5AB124CF1C8BD345002BADAE /* SelectDateCalenderView.xib */,
+			);
+			path = SelectDateCalenderView;
+			sourceTree = "<group>";
+		};
 		5AB38D711C8AF60D0054BCBA = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +73,7 @@
 		5AB38D7C1C8AF60D0054BCBA /* MacPodsKite */ = {
 			isa = PBXGroup;
 			children = (
+				5AB124CC1C8BD345002BADAE /* SelectDateCalenderView */,
 				5AB38D801C8AF60D0054BCBA /* AppDelegate.h */,
 				5AB38D811C8AF60D0054BCBA /* AppDelegate.m */,
 				5AB38D831C8AF60D0054BCBA /* ViewController.h */,
@@ -138,6 +154,7 @@
 			files = (
 				5AB38D8D1C8AF60D0054BCBA /* LaunchScreen.storyboard in Resources */,
 				5AB38D8A1C8AF60D0054BCBA /* Assets.xcassets in Resources */,
+				5AB124D11C8BD345002BADAE /* SelectDateCalenderView.xib in Resources */,
 				5AB38D881C8AF60D0054BCBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +168,7 @@
 			files = (
 				5AB38D851C8AF60D0054BCBA /* ViewController.m in Sources */,
 				5AB38D821C8AF60D0054BCBA /* AppDelegate.m in Sources */,
+				5AB124D01C8BD345002BADAE /* SelectDateCalenderView.m in Sources */,
 				5AB38D7F1C8AF60D0054BCBA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
