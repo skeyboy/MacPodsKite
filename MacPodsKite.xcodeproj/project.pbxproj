@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5AB124D71C8BD6B5002BADAE /* BilingualView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB124D41C8BD6B5002BADAE /* BilingualView.m */; };
-		5AB124D81C8BD6B5002BADAE /* InputBilingualView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB124D61C8BD6B5002BADAE /* InputBilingualView.m */; };
+		5AB124DE1C8BD9EA002BADAE /* BilingualView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB124DB1C8BD9EA002BADAE /* BilingualView.m */; };
+		5AB124DF1C8BD9EA002BADAE /* InputBilingualView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB124DD1C8BD9EA002BADAE /* InputBilingualView.m */; };
 		5AB38D7F1C8AF60D0054BCBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB38D7E1C8AF60D0054BCBA /* main.m */; };
 		5AB38D821C8AF60D0054BCBA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB38D811C8AF60D0054BCBA /* AppDelegate.m */; };
 		5AB38D851C8AF60D0054BCBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB38D841C8AF60D0054BCBA /* ViewController.m */; };
@@ -18,10 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5AB124D31C8BD6B5002BADAE /* BilingualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BilingualView.h; sourceTree = "<group>"; };
-		5AB124D41C8BD6B5002BADAE /* BilingualView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BilingualView.m; sourceTree = "<group>"; };
-		5AB124D51C8BD6B5002BADAE /* InputBilingualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputBilingualView.h; sourceTree = "<group>"; };
-		5AB124D61C8BD6B5002BADAE /* InputBilingualView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputBilingualView.m; sourceTree = "<group>"; };
+		5AB124DA1C8BD9EA002BADAE /* BilingualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BilingualView.h; sourceTree = "<group>"; };
+		5AB124DB1C8BD9EA002BADAE /* BilingualView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BilingualView.m; sourceTree = "<group>"; };
+		5AB124DC1C8BD9EA002BADAE /* InputBilingualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputBilingualView.h; sourceTree = "<group>"; };
+		5AB124DD1C8BD9EA002BADAE /* InputBilingualView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputBilingualView.m; sourceTree = "<group>"; };
 		5AB38D7A1C8AF60D0054BCBA /* MacPodsKite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacPodsKite.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB38D7E1C8AF60D0054BCBA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AB38D801C8AF60D0054BCBA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,13 +45,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5AB124D21C8BD6B5002BADAE /* BilingualView */ = {
+		5AB124D91C8BD9EA002BADAE /* BilingualView */ = {
 			isa = PBXGroup;
 			children = (
-				5AB124D31C8BD6B5002BADAE /* BilingualView.h */,
-				5AB124D41C8BD6B5002BADAE /* BilingualView.m */,
-				5AB124D51C8BD6B5002BADAE /* InputBilingualView.h */,
-				5AB124D61C8BD6B5002BADAE /* InputBilingualView.m */,
+				5AB124DA1C8BD9EA002BADAE /* BilingualView.h */,
+				5AB124DB1C8BD9EA002BADAE /* BilingualView.m */,
+				5AB124DC1C8BD9EA002BADAE /* InputBilingualView.h */,
+				5AB124DD1C8BD9EA002BADAE /* InputBilingualView.m */,
 			);
 			path = BilingualView;
 			sourceTree = "<group>";
@@ -59,6 +59,7 @@
 		5AB38D711C8AF60D0054BCBA = {
 			isa = PBXGroup;
 			children = (
+				5AB124D91C8BD9EA002BADAE /* BilingualView */,
 				5AB38D7C1C8AF60D0054BCBA /* MacPodsKite */,
 				5AB38D7B1C8AF60D0054BCBA /* Products */,
 			);
@@ -75,7 +76,6 @@
 		5AB38D7C1C8AF60D0054BCBA /* MacPodsKite */ = {
 			isa = PBXGroup;
 			children = (
-				5AB124D21C8BD6B5002BADAE /* BilingualView */,
 				5AB38D801C8AF60D0054BCBA /* AppDelegate.h */,
 				5AB38D811C8AF60D0054BCBA /* AppDelegate.m */,
 				5AB38D831C8AF60D0054BCBA /* ViewController.h */,
@@ -167,9 +167,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB124D71C8BD6B5002BADAE /* BilingualView.m in Sources */,
+				5AB124DE1C8BD9EA002BADAE /* BilingualView.m in Sources */,
 				5AB38D851C8AF60D0054BCBA /* ViewController.m in Sources */,
-				5AB124D81C8BD6B5002BADAE /* InputBilingualView.m in Sources */,
+				5AB124DF1C8BD9EA002BADAE /* InputBilingualView.m in Sources */,
 				5AB38D821C8AF60D0054BCBA /* AppDelegate.m in Sources */,
 				5AB38D7F1C8AF60D0054BCBA /* main.m in Sources */,
 			);
