@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A1A32641C8D255400B99BB5 /* KTSelectDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A32601C8D255400B99BB5 /* KTSelectDatePicker.m */; };
+		5A1A32651C8D255400B99BB5 /* KTSelectPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A32621C8D255400B99BB5 /* KTSelectPickerView.m */; };
+		5A1A32661C8D255400B99BB5 /* KTSelectPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1A32631C8D255400B99BB5 /* KTSelectPickerView.xib */; };
+		5A1A326B1C8D256500B99BB5 /* SelectDateCalenderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A1A32691C8D256500B99BB5 /* SelectDateCalenderView.m */; };
+		5A1A326C1C8D256500B99BB5 /* SelectDateCalenderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A1A326A1C8D256500B99BB5 /* SelectDateCalenderView.xib */; };
 		5AB124DE1C8BD9EA002BADAE /* BilingualView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB124DB1C8BD9EA002BADAE /* BilingualView.m */; };
 		5AB124DF1C8BD9EA002BADAE /* InputBilingualView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB124DD1C8BD9EA002BADAE /* InputBilingualView.m */; };
 		5AB38D7F1C8AF60D0054BCBA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB38D7E1C8AF60D0054BCBA /* main.m */; };
@@ -18,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A1A325F1C8D255400B99BB5 /* KTSelectDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTSelectDatePicker.h; sourceTree = "<group>"; };
+		5A1A32601C8D255400B99BB5 /* KTSelectDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTSelectDatePicker.m; sourceTree = "<group>"; };
+		5A1A32611C8D255400B99BB5 /* KTSelectPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTSelectPickerView.h; sourceTree = "<group>"; };
+		5A1A32621C8D255400B99BB5 /* KTSelectPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTSelectPickerView.m; sourceTree = "<group>"; };
+		5A1A32631C8D255400B99BB5 /* KTSelectPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KTSelectPickerView.xib; sourceTree = "<group>"; };
+		5A1A32681C8D256500B99BB5 /* SelectDateCalenderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectDateCalenderView.h; sourceTree = "<group>"; };
+		5A1A32691C8D256500B99BB5 /* SelectDateCalenderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectDateCalenderView.m; sourceTree = "<group>"; };
+		5A1A326A1C8D256500B99BB5 /* SelectDateCalenderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectDateCalenderView.xib; sourceTree = "<group>"; };
 		5AB124DA1C8BD9EA002BADAE /* BilingualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BilingualView.h; sourceTree = "<group>"; };
 		5AB124DB1C8BD9EA002BADAE /* BilingualView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BilingualView.m; sourceTree = "<group>"; };
 		5AB124DC1C8BD9EA002BADAE /* InputBilingualView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputBilingualView.h; sourceTree = "<group>"; };
@@ -45,9 +58,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5A1A325E1C8D255400B99BB5 /* KTSelectDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				5A1A325F1C8D255400B99BB5 /* KTSelectDatePicker.h */,
+				5A1A32601C8D255400B99BB5 /* KTSelectDatePicker.m */,
+				5A1A32611C8D255400B99BB5 /* KTSelectPickerView.h */,
+				5A1A32621C8D255400B99BB5 /* KTSelectPickerView.m */,
+				5A1A32631C8D255400B99BB5 /* KTSelectPickerView.xib */,
+			);
+			path = KTSelectDatePicker;
+			sourceTree = "<group>";
+		};
+		5A1A32671C8D256500B99BB5 /* SelectDateCalenderView */ = {
+			isa = PBXGroup;
+			children = (
+				5A1A32681C8D256500B99BB5 /* SelectDateCalenderView.h */,
+				5A1A32691C8D256500B99BB5 /* SelectDateCalenderView.m */,
+				5A1A326A1C8D256500B99BB5 /* SelectDateCalenderView.xib */,
+			);
+			path = SelectDateCalenderView;
+			sourceTree = "<group>";
+		};
 		5AB124D91C8BD9EA002BADAE /* BilingualView */ = {
 			isa = PBXGroup;
 			children = (
+				5A1A32671C8D256500B99BB5 /* SelectDateCalenderView */,
+				5A1A325E1C8D255400B99BB5 /* KTSelectDatePicker */,
 				5AB124DA1C8BD9EA002BADAE /* BilingualView.h */,
 				5AB124DB1C8BD9EA002BADAE /* BilingualView.m */,
 				5AB124DC1C8BD9EA002BADAE /* InputBilingualView.h */,
@@ -154,9 +191,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A1A326C1C8D256500B99BB5 /* SelectDateCalenderView.xib in Resources */,
 				5AB38D8D1C8AF60D0054BCBA /* LaunchScreen.storyboard in Resources */,
 				5AB38D8A1C8AF60D0054BCBA /* Assets.xcassets in Resources */,
 				5AB38D881C8AF60D0054BCBA /* Main.storyboard in Resources */,
+				5A1A32661C8D255400B99BB5 /* KTSelectPickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,9 +207,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5AB124DE1C8BD9EA002BADAE /* BilingualView.m in Sources */,
+				5A1A32651C8D255400B99BB5 /* KTSelectPickerView.m in Sources */,
+				5A1A326B1C8D256500B99BB5 /* SelectDateCalenderView.m in Sources */,
 				5AB38D851C8AF60D0054BCBA /* ViewController.m in Sources */,
 				5AB124DF1C8BD9EA002BADAE /* InputBilingualView.m in Sources */,
 				5AB38D821C8AF60D0054BCBA /* AppDelegate.m in Sources */,
+				5A1A32641C8D255400B99BB5 /* KTSelectDatePicker.m in Sources */,
 				5AB38D7F1C8AF60D0054BCBA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
