@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MacPodsKite"
-  s.version      = "0.0.6"
+  s.version      = "0.0.8"
   s.summary      = "MacPodsKite is for my compay team, all our little can be here. So we can together.\n添加日期选择"
 
   # This description is used to generate tags and improve search results.
